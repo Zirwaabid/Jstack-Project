@@ -260,7 +260,7 @@ header {
   margin-bottom: 1rem;
 }
 
-.skill{
+.skill {
   padding-bottom: 3rem;
 }
 
@@ -269,6 +269,53 @@ header {
   background-color: #edcfee;
   padding: 10px 20px;
   border-radius: 20px;
+}
+
+/* footer */
+
+footer {
+  background-color: #1f4a40;
+  color: #fff;
+  padding: 4rem 0;
+}
+
+footer .top {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top i {
+  font-size: 2rem;
+  margin-left: 0.5rem;
+}
+
+.bottom {
+  padding-top: 2rem;
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottom div {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: #fafafa;
+  line-height: 35px;
+  font-size: 1.1rem;
+}
+
+@media (max-width:1200px) {
+  .obj-width {
+    width: 95%;
+  }
 }
 
 @media (max-width:699px) {
@@ -365,11 +412,22 @@ header {
   .team-container .f1-box {
     width: 48%;
     border-radius: 10px;
-  text-align: center;
-  margin-top: 1rem;
+    text-align: center;
+    margin-top: 1rem;
   }
 
-  .skill{
+  .skill {
     padding-bottom: 1rem;
+  }
+
+  /* footer */
+
+  .top i {
+    margin: 1rem 1rem 0 0;
+  }
+
+  .bottom div {
+    width: 50%;
+    margin-bottom: 50px;
   }
 }
